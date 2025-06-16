@@ -131,9 +131,49 @@ img {
 
  /* TABLET   */
 
-@media all and (max-width: 768px) {
+ @media all and (max-width: 1160px) {
     .container {
         width: 100%;
     }
 }
 
+/* @media all and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+} */
+
+
+
+/* MOBILE  */
+
+@media all and (max-width:480px) {
+
+  .row {
+    flex-direction: column;
+  }
+
+  .card p {
+    padding-bottom: 80px;
+  }
+
+  .col {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}  
+
+  
+  .why-us img {
+    padding-bottom: 80px;
+  }
+
+ 
+  .container .col {
+    width: 100%;
+  }
+
+  .why-us {
+    background-color: #222222;
+  }
+
+}
