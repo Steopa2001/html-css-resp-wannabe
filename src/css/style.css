@@ -131,17 +131,17 @@ img {
 
  /* TABLET   */
 
- @media all and (max-width: 1160px) {
+ @media all and (min-width: 768px) and (max-width: 1160px) {
     .container {
         width: 100%;
     }
 }
 
-/* @media all and (max-width: 768px) {
+@media all and (max-width: 768px) {
     .container {
         width: 100%;
     }
-} */
+}
 
 
 
@@ -153,27 +153,22 @@ img {
     flex-direction: column;
   }
 
-  .card p {
-    padding-bottom: 80px;
-  }
-
-  .col {
-    padding-left: 4rem;
-    padding-right: 4rem;
-}  
-
-  
-  .why-us img {
-    padding-bottom: 80px;
-  }
-
- 
-  .container .col {
+  .lessons .col, 
+  .steps .col,
+  .why-us .col-left,
+  .why-us .col-right {
     width: 100%;
+    margin-bottom: 50px;
   }
+
+  .steps {
+    margin-bottom: 0px;
+  }
+
 
   .why-us {
     background-color: #222222;
+    padding: 3rem 0;
+    margin-bottom: 0px;
   }
-
 }
